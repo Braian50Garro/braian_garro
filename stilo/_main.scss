@@ -1,0 +1,120 @@
+.logo img{ 
+    width: 150px;}
+.titulo_inicio {
+    color: rgb(32, 30, 30);
+    margin-top: 70px;
+    font-size: 70px;
+    justify-content: center;
+    margin-left: 100px;
+  }
+ .mivideo{
+  width: 65%;
+  margin-left: 200px;
+display: block;}
+.tarjeta1{
+    display: flex;
+    margin: 95px;
+    justify-content: center;
+    }
+.tarjeta1 h2{
+        margin: 150px 75px 50px 75px;
+    }
+.tarjeta1 a{
+        margin-top: 50px;
+        margin-left: 500px;
+    }
+.tarjeta2{
+    
+    display: flex;
+    margin: 95px;
+ }
+.tarjeta2 img{
+    width: 80vh;
+}
+.tarjeta2 a{
+        margin-top: 50 px;
+        margin-left: 700px;
+    }
+    .tarjeta2 h2{
+        margin: 120px 75px 50px 75px;
+    }
+    .container_contacto{
+        margin: 150px 150px 455px 150px;
+        bottom: 0;
+        
+}
+.trabaja_menu{
+    width: 300px;
+   margin-top: 100px;
+    margin-left: 700px;
+    margin-right: 700px;
+    background-position: center;
+    }
+.trabaja_menu p{
+        width: 600px;
+        }
+.titulo_sabores{
+    margin-top: 100Px;
+    margin-left: 400px;
+    color: rgb(168, 68, 68);
+    font-size: 55px;
+}
+.container_sabores{
+    margin-top: 15px;
+    margin-left: 500px;
+}
+.container_caja{
+    display: grid;
+    width: 850px;
+    height: 270px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1f 1f 1f  ;
+    background-image: url(./img/dia-cafe-taza-cafe-aislado-sobre-fondo-blanco_866593-3678.jpg);
+    background-position: center;
+    column-gap:20px ;
+    row-gap: 20px;
+    
+}
+.caja_caja{
+    border: 1px solid rgb(49, 38, 36);
+     background-color: #ffc10769;
+     font-size: 25px;
+    }
+  .caja_caja p{
+        font-size: 15px;
+    }
+
+.titulo_saboresdulce{
+    margin-top: 50Px;
+    margin-left: 400px;
+    color: rgb(168, 68, 68);
+    font-size: 55px;
+}
+.container_cajadulce{
+    margin-top: 15px;
+    margin-left: 500px;
+
+}
+.container_cajadulce{
+    display: grid;
+    width: 850px;
+    height: 270px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1f 1f 1f  ;
+    background-image: url(./img/mascota-pastel-cumpleanos-minimalista-ia-generativa_7023-117030.jpg);
+    background-position: center;
+    column-gap:20px ;
+    row-gap: 20px;
+    }
+.caja_caja div{
+    size-adjust: 200px;
+
+}
+.caja_caja{
+    transition: transform .3s;
+}
+.caja_caja:hover{
+    transform: scale(1.1) translateY(-40px);
+}
+.roll-in-bottom{-webkit-animation:roll-in-bottom .6s ease-out both;animation:roll-in-bottom .6s ease-out both}
+ @-webkit-keyframes roll-in-bottom{0%{-webkit-transform:translateY(800px) rotate(540deg);transform:translateY(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}@keyframes roll-in-bottom{0%{-webkit-transform:translateY(800px) rotate(540deg);transform:translateY(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}
